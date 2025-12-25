@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    background-color: blue;
+}
+h2{
+    color: rgb(255,0,0)
+}
+
+h3{
+    color: #00ffaa;
+}
+h4{
+    color: rgba(255,0,0,1)
+}
