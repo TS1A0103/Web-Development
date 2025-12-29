@@ -12,7 +12,7 @@ const checkweather = async (name) => {
     else{document.querySelector("#err").style.display = "none";}
     
     document.querySelector("#country").innerHTML = data.name;
-    document.querySelector("#temp").innerHTML = Math.round(data.main.temp ) + "degrees celcius"
+    document.querySelector("#temp").innerHTML = Math.round(data.main.temp )+ "Kelvins"
     document.querySelector("#des").innerHTML = data.weather[0].description;
     document.querySelector("#humidity").innerHTML = data.main.humidity + "%";
     document.querySelector("#wind").innerHTML = data.wind.speed + " km/hr";
